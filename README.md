@@ -9,9 +9,10 @@ Bu proje, kullanıcıların ürünler üzerinde canlı olarak açık artırma ya
 * Oturum açmamış kullanıcılar için oturum açma sayfasına yönlendirme
 * Canlı açık artırma yapabilme ve teklif sunabilme
 * Diğer kullanıcıların canlı olarak açık artırmayı takip etme ve güncel fiyatı görebilme
-* Güvenlik ve Oturum Yönetimi
-* Kullanıcı parolaları şifrelenmiş şekilde saklanır (bcrypt kullanılarak)
-* JSON Web Token (JWT) ile güvenli oturum yönetimi
+
+## Güvenlik
+* Parolalar, veritabanında şifrelenmiş şekilde tutulmaktadır.
+* JWT (JSON Web Token) sistemi kullanılarak kimlik doğrulama işlemleri gerçekleştirilmektedir.
 
 ## Kurulum
 
