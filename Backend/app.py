@@ -38,9 +38,6 @@ app.config['SQLALCHEMY_DATABASE_URI'] = DATABASE_URL
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db = SQLAlchemy(app)
 
-with app.app_context():
-    db.create_all()
-
 socketio = SocketIO(app, cors_allowed_origins="*", manage_session=False, engineio_logger=True, logger=True)
 
 products = [
@@ -114,7 +111,8 @@ def login():
 @app.route('/register', methods=['POST'])
 def register():
     username = request.json.get('username')
-    password = request.json.get('password')      
+    password = request.json.get('password')
+    db.create_all()
     existing_user = User.query.filter_by(username=username).first()
     if existing_user:
         return jsonify(status='error', message='Kullanıcı adı kullanımda')
