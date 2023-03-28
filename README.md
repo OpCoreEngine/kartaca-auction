@@ -40,4 +40,4 @@ Bu proje, kullanıcıların ürünler üzerinde canlı olarak açık artırma ya
 
 Görev içeriğine ulaşmak için kullanılan kod, `Kartaca-Task-Content-Access` klasöründe bulunabilir
 
-`"registrationKey": "df96f5d01e739aa8bd70cd32efea03137004fe5e92093c49fd9d4ffb`
+`"registrationKey": "532dc0cf3de3e4cb34e199d056cfff59cab4440e8fbf4f6ea9a8705a0a986eba"`
