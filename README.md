@@ -23,7 +23,7 @@ Bu proje, kullanıcıların ürünler üzerinde canlı olarak açık artırma ya
 
 1. Bu GitHub reposunu klonlayın veya indirin.
 2. Klonlanan veya indirilen dizine gidin.
-3. .env.example dosyasını .env olarak yeniden adlandırın ve içerisindeki gerekli değişkenleri doldurun.
+3. `.env.example` dosyasını `.env` olarak yeniden adlandırın ve içerisindeki gerekli değişkenleri doldurun.
 4. Terminalde (veya komut istemcisinde) aşağıdaki komutu çalıştırarak uygulamayı başlatın:
 `docker-compose up -d`
 5. Tarayıcınızda http://localhost:8080 adresini açarak uygulamayı kullanmaya başlayabilirsiniz.
